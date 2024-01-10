@@ -6,10 +6,11 @@ public class Card : MonoBehaviour
 {
     [Header("ÅÆµÄÐòºÅ")]
     public int cardNum;
+    public int spriteNum;
     // Start is called before the first frame update
     void Start()
     {
-        cardNum = GameManager.instance.CardImageToCardNum(GetComponent<SpriteRenderer>().sprite);
+        
     }
 
     // Update is called once per frame
